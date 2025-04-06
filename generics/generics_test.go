@@ -9,6 +9,13 @@ import "testing"
 // 3) tells you nothing about the type, confusing
 // 4) need to do type assertion before you can use it
 
+// i didnt go into the next part as they explained higher order functions like:
+// REDUCE (in particular), Map, Find etc. and how generics make them easier to implement
+// without ising interface{}, hence alot more reusable
+// --> explains how using high order functions make code more declarative
+
+// possible to explore pros & cons of functional vs imperative programming
+
 func TestAssertFunctions(t *testing.T) {
 	t.Run("asserting on integers", func(t *testing.T) {
 		AssertEqual(t, 1, 1)
